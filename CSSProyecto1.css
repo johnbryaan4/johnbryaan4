@@ -1,0 +1,2004 @@
+body{
+   
+  margin-left:100px;
+  margin-right:100px;
+}
+.proyecto{
+  background-color:rgb(238, 238, 238);
+}
+
+ul, ol {
+  list-style:none;
+  }
+  .nav > li {
+  float:center;
+  }
+  .nav li a {
+  background-color:rgb(0, 0, 0);
+  color:#fff;
+  text-decoration:none;
+  padding:10px 12px;
+  display:block;
+  }
+  .nav li a:hover {
+  background-color:#434343;
+  }
+  .nav li ul {
+  display:none;
+  position:absolute;
+  min-width:140px;
+  }
+  .nav  li:hover > ul {
+  display:block;
+  }
+  .nav li ul li ul {
+  right:-120px;
+  top:0px;
+  text-align:center;
+  background-color: black;
+  }
+  .nav {
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 5px;
+    top: 0px;
+  }
+  .nav li{
+    background-color: #000000;
+  }
+  .Botonvermas {
+    background-color: #4caf50;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 15px 32px;
+    font-size: 1.2em;
+    box-shadow: 0px 0px 10px 0px #4caf50;
+    cursor: pointer;
+  }
+  .Botonvermas:hover {
+    box-shadow: none;
+    background-color: black;
+    color: #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+  }
+.hideText1 {
+  display: none;
+}
+.showText1 {
+  display: block;
+} 
+
+<!----->
+ul {
+    background-color:#5bd3d0;
+    padding: 0;
+    margin: 0;
+  }
+li {
+    color: rgb(239, 179, 49);
+    display: inline-block;
+    font-family: 'Bookman Old Style';
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 20px 18px 10px 18px;
+    text-transform: uppercase;
+   
+  }
+body{
+    color:rgb(0, 0, 0);
+  }
+table{  
+    text-align: center;
+}
+form{
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Bookman Old Style';
+}
+<!----->
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Monotype Corsiva', sans-serif;
+  
+}
+textarea{
+max-width: 99%;
+}
+
+header{
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+video{
+  width: 100%;
+}
+
+.absolute{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+h1{
+  font-size: 80px;
+  font-weight: 900;
+  z-index: 100;
+  color:#fff;
+  margin-bottom: 30px;
+}
+
+h1::after{
+  display: block;
+  width: 30%;
+  height: 10px;
+  content: "";
+  margin: auto;
+  background: #fff;
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.575);
+}
+
+@media screen and (max-width: 800px){
+  h1{
+      font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  h1{
+      font-size: 30px;
+      margin-bottom: 0;
+  }
+
+  h1::after{
+      display: none;
+  }
+}
+ 
+.Boton2 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton2:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText2 {
+  display: none;
+}
+
+.showText2 {
+  display: block;
+}
+
+ 
+.Boton3 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton3:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText3 {
+  display: none;
+}
+
+.showText3 {
+  display: block;
+}
+
+
+.Boton4 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton4:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText4 {
+  display: none;
+}
+
+.showText4 {
+  display: block;
+}
+
+.Boton5 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton5:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText5 {
+  display: none;
+}
+
+.showText5 {
+  display: block;
+}
+
+.Boton6 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton6:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText6 {
+  display: none;
+}
+
+.showText6 {
+  display: block;
+}
+
+
+.Boton7 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton7:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText7 {
+  display: none;
+}
+
+.showText7 {
+  display: block;
+}
+.Boton8 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton8:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText8 {
+  display: none;
+}
+
+.showText8 {
+  display: block;
+}
+
+.Boton9 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton9:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText9 {
+  display: none;
+}
+
+.showText9 {
+  display: block;
+}
+
+.Boton10 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton10:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText10 {
+  display: none;
+}
+
+.showText10 {
+  display: block;
+}
+
+
+.Boton11 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton11:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText11 {
+  display: none;
+}
+
+.showText11 {
+  display: block;
+}
+
+.Boton12 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton12:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText12 {
+  display: none;
+}
+
+.showText12 {
+  display: block;
+}
+
+.Boton13 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton13:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText13 {
+  display: none;
+}
+
+.showText13 {
+  display: block;
+}
+.Boton14 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton14:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText14 {
+  display: none;
+}
+
+.showText14 {
+  display: block;
+}
+
+.Boton15 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton15:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText15 {
+  display: none;
+}
+
+.showText15 {
+  display: block;
+}
+
+.Boton16 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton16:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText16 {
+  display: none;
+}
+
+.showText16 {
+  display: block;
+}
+
+.Boton17 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton17:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText17 {
+  display: none;
+}
+
+.showText17 {
+  display: block;
+}
+
+.Boton18 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton18:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText18 {
+  display: none;
+}
+
+.showText18 {
+  display: block;
+}
+
+.Boton19 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton19:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText19 {
+  display: none;
+}
+
+.showText19 {
+  display: block;
+}
+.Boton20 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton20:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText20 {
+  display: none;
+}
+
+.showText20 {
+  display: block;
+}
+
+.Boton21 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton21:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText21 {
+  display: none;
+}
+
+.showText21 {
+  display: block;
+}
+
+.Boton22 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton22:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText22 {
+  display: none;
+}
+
+.showText22 {
+  display: block;
+}
+
+.Boton23 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton23:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText23 {
+  display: none;
+}
+
+.showText23 {
+  display: block;
+}
+
+.Boton24 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton24:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText24 {
+  display: none;
+}
+
+.showText24 {
+  display: block;
+}
+.Boton25 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton25:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText25 {
+  display: none;
+}
+
+.showText25 {
+  display: block;
+}
+.Boton26 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton26:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText26 {
+  display: none;
+}
+
+.showText26 {
+  display: block;
+}
+
+.Boton27 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton27:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText27 {
+  display: none;
+}
+
+.showText27 {
+  display: block;
+}
+
+.Boton28 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton28:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText28 {
+  display: none;
+}
+
+.showText28 {
+  display: block;
+}
+
+.Boton29 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton29:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText29 {
+  display: none;
+}
+
+.showText29 {
+  display: block;
+}
+.Boton30 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton30:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText30 {
+  display: none;
+}
+
+.showText30 {
+  display: block;
+}
+
+.Boton31 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton31:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText31 {
+  display: none;
+}
+
+.showText31 {
+  display: block;
+}
+
+.Boton32 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton32:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText32 {
+  display: none;
+}
+
+.showText32 {
+  display: block;
+}
+.Boton33 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton33:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText33 {
+  display: none;
+}
+
+.showText33 {
+  display: block;
+}
+
+.Boton34 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton34:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText34 {
+  display: none;
+}
+
+.showText34 {
+  display: block;
+}
+.Boton35 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton35:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText35 {
+  display: none;
+}
+
+.showText35 {
+  display: block;
+}
+
+.Boton36 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton36:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText36 {
+  display: none;
+}
+
+.showText36 {
+  display: block;
+}
+
+.Boton37 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton37:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText37 {
+  display: none;
+}
+
+.showText37 {
+  display: block;
+}
+.Boton38 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton38:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText38 {
+  display: none;
+}
+
+.showText38 {
+  display: block;
+}
+
+.Boton39 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton39:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText39 {
+  display: none;
+}
+
+.showText39 {
+  display: block;
+}
+.Boton40{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton40:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText40 {
+  display: none;
+}
+
+.showText40 {
+  display: block;
+}
+
+.Boton41{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton41:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText41 {
+  display: none;
+}
+
+.showText41 {
+  display: block;
+}
+
+.Boton42{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton42:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText42 {
+  display: none;
+}
+
+.showText42 {
+  display: block;
+}
+
+.Boton43{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton43:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText43 {
+  display: none;
+}
+
+.showText43 {
+  display: block;
+}
+
+.Boton44{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton44:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText44 {
+  display: none;
+}
+
+.showText44 {
+  display: block;
+}
+.Boton45{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton45:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText45 {
+  display: none;
+}
+
+.showText45 {
+  display: block;
+}
+
+.Boton46{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton46:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText46 {
+  display: none;
+}
+
+.showText46 {
+  display: block;
+}
+.Boton47{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton47:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText47 {
+  display: none;
+}
+
+.showText47 {
+  display: block;
+}
+
+.Boton48{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton48:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText48 {
+  display: none;
+}
+
+.showText48 {
+  display: block;
+}
+.Boton49{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton49:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText49 {
+  display: none;
+}
+
+.showText49 {
+  display: block;
+}
+.Boton50{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton50:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText50 {
+  display: none;
+}
+
+.showText50 {
+  display: block;
+}
+.Boton51{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton51:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText51 {
+  display: none;
+}
+
+.showText51 {
+  display: block;
+}
+
+.Boton52{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton52:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText52 {
+  display: none;
+}
+
+.showText52 {
+  display: block;
+}
+.Boton53{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton53:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText53 {
+  display: none;
+}
+
+.showText53 {
+  display: block;
+}
+.Boton54{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton54:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText54 {
+  display: none;
+}
+
+.showText54 {
+  display: block;
+}
+.Boton55{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton55:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText55 {
+  display: none;
+}
+
+.showText55 {
+  display: block;
+}
+.Boton56{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton56:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText56 {
+  display: none;
+}
+
+.showText56 {
+  display: block;
+}
+
+.Boton57{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton57:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText57 {
+  display: none;
+}
+
+.showText57 {
+  display: block;
+}
+
+.Boton58{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton58:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText58 {
+  display: none;
+}
+
+.showText58 {
+  display: block;
+}
+.Boton59{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton59:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText59 {
+  display: none;
+}
+
+.showText59 {
+  display: block;
+}
+.Boton60{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton60:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText60 {
+  display: none;
+}
+
+.showText60 {
+  display: block;
+}
+.Boton61{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton61:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText61 {
+  display: none;
+}
+
+.showText61 {
+  display: block;
+}
+
+.Boton62{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton62:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText62 {
+  display: none;
+}
+
+.showText62 {
+  display: block;
+}
+
+.Boton63{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton63:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText63 {
+  display: none;
+}
+
+.showText63 {
+  display: block;
+}
+.Boton64{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton64:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText64 {
+  display: none;
+}
+
+.showText64 {
+  display: block;
+}
+
+.Boton65{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton65:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText65 {
+  display: none;
+}
+
+.showText65 {
+  display: block;
+}
+.Boton66{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton66:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText66 {
+  display: none;
+}
+
+.showText66 {
+  display: block;
+}
+
+.Boton67{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton67:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText67 {
+  display: none;
+}
+
+.showText67 {
+  display: block;
+}
+
+.Boton68{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton68:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText68 {
+  display: none;
+}
+
+.showText68 {
+  display: block;
+}
+
+.Boton69{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton69:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText69 {
+  display: none;
+}
+
+.showText69 {
+  display: block;
+}
+.Boton70{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton70:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText70 {
+  display: none;
+}
+
+.showText70 {
+  display: block;
+}
+
+.Boton71{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton71:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText71 {
+  display: none;
+}
+
+.showText71 {
+  display: block;
+}
+.Boton72{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+}
+
+.Boton72:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.hideText72 {
+  display: none;
+}
+
+.showText72 {
+  display: block;
+}
+ 
